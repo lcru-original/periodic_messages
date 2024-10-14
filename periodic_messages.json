@@ -1,7 +1,7 @@
 {
   "periodic_messages": [
     {
-      "enabled": true,
+      "enabled": false,
       "messenger": "DiscordMessenger",
       "name": "Тестовое сообщение Telegram #1",
       "author": "Администрация",
@@ -11,7 +11,7 @@
       "delete_after": 180
     },
     {
-      "enabled": true,
+      "enabled": false,
       "messenger": "TelegramMessenger",
       "name": "Тестовое сообщение Discord #1",
       "author": "Администрация",
@@ -21,7 +21,7 @@
       "delete_after": 180
     },
     {
-      "enabled": true,
+      "enabled": false,
       "messenger": "GameServerMessenger",
       "name": "Тестовое сообщение GameServer #1",
       "author": "Администрация",
