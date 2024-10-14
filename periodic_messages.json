@@ -1,0 +1,34 @@
+{
+  "periodic_messages": [
+    {
+      "enabled": true,
+      "messenger": "DiscordMessenger",
+      "name": "Тестовое сообщение Telegram #1",
+      "author": "Администрация",
+      "content": "test telegram #1",
+      "period": "*/1 * * * *",
+      "datetime": "2024-10-12 17:58:10",
+      "delete_after": 180
+    },
+    {
+      "enabled": true,
+      "messenger": "TelegramMessenger",
+      "name": "Тестовое сообщение Discord #1",
+      "author": "Администрация",
+      "content": "test Discord #1",
+      "period": "*/1 * * * *",
+      "datetime": "2024-10-12 17:58:10",
+      "delete_after": 180
+    },
+    {
+      "enabled": true,
+      "messenger": "GameServerMessenger",
+      "name": "Тестовое сообщение GameServer #1",
+      "author": "Администрация",
+      "content": "test GameServer #1",
+      "period": "*/1 * * * *",
+      "datetime": "2024-10-12 17:58:10",
+      "delete_after": 180
+    }
+  ]
+}
