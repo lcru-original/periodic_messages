@@ -3,7 +3,7 @@
     {
       "enabled": false,
       "messenger": "DiscordMessenger",
-      "name": "Тестовое сообщение Telegram ##1",
+      "name": "Тестовое сообщение Telegram #1",
       "author": "Администрация",
       "content": "test telegram #1",
       "period": "*/1 * * * *",
@@ -13,7 +13,7 @@
     {
       "enabled": false,
       "messenger": "TelegramMessenger",
-      "name": "Тестовое сообщение Discord ##1",
+      "name": "Тестовое сообщение Discord #1",
       "author": "Администрация",
       "content": "test Discord #1",
       "period": "*/1 * * * *",
@@ -23,7 +23,7 @@
     {
       "enabled": false,
       "messenger": "GameServerMessenger",
-      "name": "Тестовое сообщение GameServer ##1",
+      "name": "Тестовое сообщение GameServer #1",
       "author": "Администрация",
       "content": "test GameServer #1",
       "period": "*/1 * * * *",
