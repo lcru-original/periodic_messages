@@ -1,8 +1,12 @@
 {
   "periodic_messages": [
     {
-      "enabled": false,
-      "messenger": "DiscordMessenger",
+      "enabled": true,
+      "target": "DiscordMessenger",
+      "socket":
+      [
+        "azura"
+      ],
       "name": "Тестовое сообщение Telegram #1",
       "author": "Администрация",
       "content": "test telegram #1",
@@ -11,21 +15,29 @@
       "delete_after": 180
     },
     {
-      "enabled": false,
-      "messenger": "TelegramMessenger",
+      "enabled": true,
+      "target": "TelegramMessenger",
+      "socket":
+      [
+        "azura"
+      ],
       "name": "Тестовое сообщение Discord #1",
       "author": "Администрация",
-      "content": "test Discord #1",
+      "content": "test telegram #1",
       "period": "*/1 * * * *",
       "datetime": "2024-10-12 17:58:10",
       "delete_after": 180
     },
     {
-      "enabled": false,
-      "messenger": "GameServerMessenger",
+      "enabled": true,
+      "target": "GameServerMessenger",
+      "socket":
+      [
+        "azura"
+      ],
       "name": "Тестовое сообщение GameServer #1",
       "author": "Администрация",
-      "content": "test GameServer #1",
+      "content": "test telegram #1",
       "period": "*/1 * * * *",
       "datetime": "2024-10-12 17:58:10",
       "delete_after": 180
