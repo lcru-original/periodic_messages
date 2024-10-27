@@ -2,7 +2,9 @@
   "periodic_messages": [
     {
       "enabled": true,
-      "messenger": "DiscordMessenger",
+      "messenger": [
+        "DiscordMessenger"
+      ],
       "tag": [
         "azura"
       ],
@@ -15,7 +17,9 @@
     },
     {
       "enabled": true,
-      "messenger": "TelegramMessenger",
+      "messenger": [
+        "TelegramMessenger"
+      ],
       "tag": [
         "azura"
       ],
@@ -28,13 +32,32 @@
     },
     {
       "enabled": true,
-      "messenger": "GameServerMessenger",
+      "messenger": [
+        "GameServerMessenger"
+      ],
       "tag": [
         "azura"
       ],
       "name": "Тестовое сообщение GameServer #1",
       "author": "Администрация",
       "content": "test gameserver #1 <link https://last-chaos.ru>Last-Chaos.Ru</link>",
+      "period": "*/1 * * * *",
+      "datetime": "2024-10-12 17:58:10",
+      "delete_after": 180
+    },
+    {
+      "enabled": true,
+      "messenger": [
+        "GameServerMessenger",
+        "TelegramMessenger",
+        "DiscordMessenger"
+      ],
+      "tag": [
+        "azura"
+      ],
+      "name": "Тестовое сообщение GameServer #1",
+      "author": "Администрация",
+      "content": "test gameserver #2",
       "period": "*/1 * * * *",
       "datetime": "2024-10-12 17:58:10",
       "delete_after": 180
