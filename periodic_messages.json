@@ -3,51 +3,6 @@
     {
       "enabled": true,
       "messenger": [
-        "DiscordMessenger"
-      ],
-      "tag": [
-        "azura"
-      ],
-      "name": "Тестовое сообщение Discord #1",
-      "author": "Администрация",
-      "content": "test discord #1",
-      "period": "*/1 * * * *",
-      "datetime": "2024-10-27 12:22:10",
-      "delete_after": 180
-    },
-    {
-      "enabled": true,
-      "messenger": [
-        "TelegramMessenger"
-      ],
-      "tag": [
-        "azura"
-      ],
-      "name": "Тестовое сообщение Telegram #1",
-      "author": "Администрация",
-      "content": "test telegram #1",
-      "period": "*/1 * * * *",
-      "datetime": "2024-10-12 17:58:10",
-      "delete_after": 180
-    },
-    {
-      "enabled": true,
-      "messenger": [
-        "GameServerMessenger"
-      ],
-      "tag": [
-        "azura"
-      ],
-      "name": "Тестовое сообщение GameServer #1",
-      "author": "Администрация",
-      "content": "test gameserver #1 <link https://last-chaos.ru>Last-Chaos.Ru</link>",
-      "period": "*/1 * * * *",
-      "datetime": "2024-10-12 17:58:10",
-      "delete_after": 180
-    },
-    {
-      "enabled": true,
-      "messenger": [
         "GameServerMessenger",
         "TelegramMessenger",
         "DiscordMessenger"
@@ -55,12 +10,12 @@
       "tag": [
         "azura"
       ],
-      "name": "Тестовое сообщение GameServer #1",
+      "name": "Открытие Катара",
       "author": "Администрация",
-      "content": "test gameserver #2",
-      "period": "*/1 * * * *",
+      "content": "1 ноября в 20.00 по мск состоится открытие Катара. Множество интересных активностей, размеренная игра и новые возможности ждут! Подробности - в новостях на сайте игры.",
+      "period": "0 * * * *",
       "datetime": "2024-10-12 17:58:10",
-      "delete_after": 180
+      "delete_after": 3600
     }
   ]
 }
