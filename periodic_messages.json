@@ -1,7 +1,7 @@
 {
   "periodic_messages": [
     {
-      "enabled": true,
+      "enabled": false,
       "messenger": [
         "GameServerMessenger",
         "TelegramMessenger",
@@ -18,7 +18,7 @@
       "delete_after": 3600
     },
     {
-      "enabled": true,
+      "enabled": false,
       "messenger": [
         "GameServerMessenger",
         "TelegramMessenger",
@@ -35,7 +35,7 @@
       "delete_after": 3600
     },
     {
-      "enabled": true,
+      "enabled": false,
       "messenger": [
         "GameServerMessenger",
         "TelegramMessenger",
